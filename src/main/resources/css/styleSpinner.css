@@ -1,0 +1,25 @@
+.spinner {
+    -fx-background-color: none;
+    -fx-border-color: none;
+    -fx-focus-color: transparent;    
+    -fx-faint-focus-color: transparent;
+}
+
+.spinner .text-field {
+    -fx-border-radius: 10px 0 0 10px;
+}
+
+.spinner .increment-arrow-button {
+    -fx-background-color: #FF6D6D;
+    -fx-background-radius: 0 10px 0 0;
+}
+
+.spinner .decrement-arrow-button {
+    -fx-background-color: #FF6D6D;
+    -fx-background-radius: 0 0 10px 0;
+}
+
+.spinner .increment-arrow, 
+.spinner .decrement-arrow {
+    -fx-background-color: white;
+}

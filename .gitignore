@@ -1,0 +1,14 @@
+# Maven
+target/
+
+# jpackage
+installer/
+
+# Java
+*.class
+
+# IDE
+.nb-gradle/
+.idea/
+.vscode/
+*.iml

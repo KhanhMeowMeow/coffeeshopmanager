@@ -1,0 +1,40 @@
+.text-field {
+    -fx-background-color: white;    
+    -fx-background-radius: 10;     
+    -fx-border-color: #FF6D6D;       
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-focus-color: transparent;    
+    -fx-faint-focus-color: transparent;
+    -fx-border-insets: 0 0 0 0;
+    -fx-padding: 0 14 0 14;
+    -fx-font-size: 16px;
+    -fx-font-family: 'Asap Condensed';
+}
+
+.text-field:focused {}
+
+.text-field:disabled {       
+    -fx-text-fill: #626262;  
+}
+
+.password-field {
+    -fx-background-color: white;    
+    -fx-background-radius: 10;     
+    -fx-border-color: #FF6D6D;       
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-focus-color: transparent;    
+    -fx-faint-focus-color: transparent;
+    -fx-border-insets: 0 0 0 0;
+    -fx-font-size: 6.5px;
+    -fx-padding: 0 14 0 14;
+    -fx-font-family: 'Asap Condensed';
+    -fx-text-fill: #626262; 
+}
+
+.password-field:focused {}
+
+.password-field:disabled {
+    -fx-text-fill: #626262;  
+}
